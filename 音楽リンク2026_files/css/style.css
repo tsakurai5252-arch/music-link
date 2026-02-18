@@ -1,0 +1,18 @@
+<style>
+a {
+outline: none;
+text-decoration: underline;
+}
+a:link { color: #0000FF; }
+a:visited { color: #0000FF; }
+a:active { color: #0000FF; }
+
+a:link {
+  color: 0000FF; 
+  transition: 0.4s; /* 変化に0.4秒かける */
+}
+
+a:hover {
+  color: red; 
+}
+</style>
